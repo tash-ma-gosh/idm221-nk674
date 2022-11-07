@@ -8,6 +8,8 @@ function openNav() {
     document.getElementById("mySidepanel").style.width = "0";
   }
 
+
+  
   function openJob(evt, jobName) {
     // Declare all variables
     var i, tabcontent, tablinks;
