@@ -1,23 +1,37 @@
 html{
   --darker-shade:black;
   --color-text: white;
+  /*color pallete*/
+  --mauvelous: #F29CA3;
+  --alice-blue: #EFF8FD;
+  --rhythm:#777DA7;
+  --raisin-black: #282828;
+  --shadow-blue: #7286A0;
 }
 
 nav ul{
   list-style-type: none;
 }
 
+@font-face {
+  font-family: 'bleh';
+  src: url('/fonts/ChunkFive-Regular.otf');
+}
+
+
+
 body{
-  background-color: var(--darker-shade);
-  color: var(--color-text);
+  background: linear-gradient(to right, #777DA7 30%, #EFF8FD);
+  color: var(--raisin-black); 
 }
 
-#eyeCatcher{
+#nameOpener{
+  font-family: 'bleh';
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+  /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
-@-webkit-keyframes glow{
+/* @-webkit-keyframes glow{
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
@@ -25,7 +39,7 @@ body{
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
-}
+} */
 
 /* Tab Content on Experience page
   reference: https://www.w3schools.com/howto/howto_js_tabs.asp
