@@ -1,12 +1,16 @@
+:root{
+/*color pallete*/
+--mauvelous: #F29CA3;
+--alice-blue: #EFF8FD;
+--rhythm:#777DA7;
+--raisin-black: #282828;
+--shadow-blue: #7286A0;
+
+}
 html{
   --darker-shade:black;
   --color-text: white;
-  /*color pallete*/
-  --mauvelous: #F29CA3;
-  --alice-blue: #EFF8FD;
-  --rhythm:#777DA7;
-  --raisin-black: #282828;
-  --shadow-blue: #7286A0;
+  
 }
 
 nav ul{
