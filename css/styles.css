@@ -5,16 +5,11 @@
 --rhythm:#777DA7;
 --raisin-black: #282828;
 --shadow-blue: #7286A0;
-
 }
+
 html{
   --darker-shade:black;
-  --color-text: white;
-  
-}
-
-nav ul{
-  list-style-type: none;
+  --color-text: white; 
 }
 
 @font-face {
@@ -22,18 +17,53 @@ nav ul{
   src: url('/fonts/ChunkFive-Regular.otf');
 }
 
+nav ul{
+  list-style-type: none;
+}
+
+nav{
+  font-family: 'bleh';
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list{
+  display: flex;
+}
+
+.nav-list li{
+  list-style: none;
+  padding: 12px 40px;
+}
+
+.nav-list li a{
+  color: white;
+  text-decoration: none;
+}
+
 
 
 body{
   background: linear-gradient(to right, #777DA7 30%, #EFF8FD);
   color: var(--raisin-black); 
+  font-size: 16px;
 }
+
+
 
 #nameOpener{
   font-family: 'bleh';
   text-align: center;
+  font-size: 2.25em;
   /* animation: glow 1s ease-in-out infinite alternate; */
 }
+
+#openingBlurb{
+  text-align: center;
+  font-size: 1.25em;
+}
+
+
 
 /* @-webkit-keyframes glow{
   from {
