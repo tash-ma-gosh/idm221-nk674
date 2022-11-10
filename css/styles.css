@@ -19,8 +19,24 @@ html{
   src: url('/fonts/ChunkFive-Regular.otf');
 }
 
+header{
+  font-size: 25px;
+}
+
 nav ul{
   list-style-type: none;
+}
+
+.logo{
+  font-family: 'bleh';
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+.logo a{
+  color: white;
+  text-decoration: none;
 }
 
 nav{
@@ -51,12 +67,14 @@ nav div .logo a{
 
 
 body{
-  background: linear-gradient(131.6deg, #7F9EFA 35.86%, #C6EEE0 104.02%);
+  background:linear-gradient(131.6deg, #7F9EFA 20.86%, rgba(76, 232, 120, 0.475) 104.02%);  
+  height: inherit;
+  width: inherit;
   color: var(--raisin-black); 
   font-size: 16px;
 }
 
-
+ 
 
 #nameOpener{
   font-family: 'bleh';
