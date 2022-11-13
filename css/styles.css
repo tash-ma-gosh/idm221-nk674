@@ -82,23 +82,27 @@ nav{
   display: flex;
   height: inherit;
   align-items: center;
-  justify-content: center;
 }
 
 .frontRect{
+  position: absolute;
   background-color: #fa7ff8;
   border-radius: 15px;
   width: 300px;
   height: 250px;
 }
 .backRect{
+  position: absolute;
+  align-self: center;
   background-color: #faaa7f;
   border-radius: 15px;
-  width: 300px;
-  height: 250px;
+  width: 40%;
+  height: 50%;
 }
  
-
+.homeIntro{
+  position: absolute;
+}
 
 #nameOpener{
   font-family: 'bleh';
