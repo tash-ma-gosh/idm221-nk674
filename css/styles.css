@@ -43,9 +43,10 @@ body{
 .nav-list li a{
   color: white;
   text-decoration: none;
+  letter-spacing: 0.12em;
 }
 
-.nav-list li a:hover{
-  color: rgb(245, 153, 210);
-  transition: .3s;
+.nav-list li a:hover{ /*change color*/
+  color: rgb(206, 51, 147);
+  transition: .2s;
 }
