@@ -35,7 +35,7 @@ nav{
 
 body{
   background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);
-  background-attachment: scroll, scroll;  
+  background-attachment: fixed;  
 }
 
 .logo a{
@@ -90,7 +90,7 @@ body{
 }
 
 .bio-container{
-  margin-top: 2.5%;
+  margin-top: 4%;
 }
 
 .grid-layout{
@@ -99,7 +99,7 @@ body{
 }
 
 .picture-and-description{
-  margin-top: 48px;
+  margin-top: 2%;
   grid-template-columns: 2fr 1.4fr;
   grid-template-rows: auto;
 }
