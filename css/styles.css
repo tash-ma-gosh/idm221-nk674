@@ -34,7 +34,8 @@ nav{
 }
 
 body{
-  background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);  
+  background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);
+  background-attachment: scroll, scroll;  
 }
 
 .logo a{
@@ -86,4 +87,19 @@ body{
   justify-content: center;
   padding: 1.75em;
   margin-left: -47%;
+}
+
+.bio-container{
+  margin-top: 2.5%;
+}
+
+.grid-layout{
+  display: grid;
+  grid-auto-columns: 1fr;
+}
+
+.picture-and-description{
+  margin-top: 48px;
+  grid-template-columns: 2fr 1.4fr;
+  grid-template-rows: auto;
 }
