@@ -96,10 +96,40 @@ body{
 .grid-layout{
   display: grid;
   grid-auto-columns: 1fr;
+  justify-content: center;
 }
 
 .picture-and-description{
   margin-top: 2%;
   grid-template-columns: 2fr 1.4fr;
   grid-template-rows: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fun-facts{
+  
+  background-color: rgb(217, 192, 255);
+  margin-top: 4.5%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 60%;
+  column-gap: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.square-grid{
+  height: 100%;
+  
+}
+
+.square-title{
+  font-size: 1.45rem;
+}
+
+.grid-desc{
+  font-size: 1.10rem;
 }
