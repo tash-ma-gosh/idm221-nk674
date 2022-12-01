@@ -109,6 +109,8 @@ body{
   grid-template-areas: 
     'header pic'
     'para para';
+  row-gap: 1.5ch;
+  align-items: center;
 }
 
 .picture-of-me{
@@ -121,58 +123,14 @@ body{
 
 .bio-greeting{
   grid-area: header;
-}
-
-
-
-/* .grid-layout{
-  display: grid;
-  grid-auto-columns: 1fr;
-  gap: 10px 15px;
-  
-}
-
-.picture-and-description{
-  margin-top: 2%;
-  grid-template-columns: 2fr 1.4fr;
-  grid-template-rows: auto;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.description{
-  font-size: 1rem;
+  font-size: 1.5em;
 }
 
 .fun-facts{
-  margin-top: 4.5%;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: auto auto;
-  width: 17%;
-  grid-column-gap: 2px;
-  grid-row-gap: 2px; 
-  margin-left: auto;
-  margin-right: auto;
-  justify-items: center;
-  
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px; 
 }
-
-.square-grid{
-  height: 100%;
-  width: 70%;
-}
-
-.top-grid{
-  border-bottom: 2px solid black;
-}
-
-
-
-.square-title{
-  font-size: 1.45rem;
-}
-
-.grid-desc{
-  font-size: 1.10rem;
-} */
