@@ -21,12 +21,9 @@ html, body{
 header{
   width: 100%;
   font-family: 'ChunkFive';
-<<<<<<< HEAD
-  font-size: 1rem;
-=======
   font-size: 0.5rem;
   height: 20%;
->>>>>>> 6e05033c8f59ecf2df783547155453ebe0f71fa8
+
 }
 
 /* nav{
