@@ -21,7 +21,7 @@ html, body{
 header{
   width: 100%;
   font-family: 'ChunkFive';
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 nav{
@@ -33,15 +33,22 @@ nav{
   padding-right: 5%;
 }
 
+.clickable{
+  display: flex;
+}
+
 body{
   background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);
   background-attachment: fixed;  
 }
 
-.logo a{
-  text-decoration: none;
-  color: white;
-  letter-spacing: 0.12em;
+.logo img{
+  height: 25%;
+  width: 25%;
+  padding-top: 3%; /*adjust*/
+  padding-left: 5%;
+  padding-right: 5%;
+  
 }
 
 .nav-list li{
