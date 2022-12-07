@@ -22,8 +22,7 @@ header{
   width: 100%;
   font-family: 'ChunkFive';
   font-size: 0.5rem;
-  height: 20%;
-
+  height: 7vh;
 }
 
 /* nav{
@@ -36,7 +35,7 @@ header{
 } */
 
 .logo{
-  height: 50%;
+  height: 7%;
   width: 15%;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -55,14 +54,8 @@ body{
   background-attachment: fixed;  
 }
 
-.logo img{
-  height: 25%;
-  width: 25%;
-  padding-top: 3%; /*adjust*/
-  padding-left: 5%;
-  padding-right: 5%;
-  
-}
+
+/* }
 
 .menu-open{
   position: fixed;
@@ -140,7 +133,7 @@ nav ul li{
   color: rgb(0, 0, 0);
   text-decoration: none;
   letter-spacing: 0.12em;
-}
+} */
 
 
 /*styling individual nav links*/
@@ -189,8 +182,10 @@ nav ul li{
   margin-left: -47%;
 }
 
+/*About Me Grid*/
+
 .bio-container{
-  margin-top: 4%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
