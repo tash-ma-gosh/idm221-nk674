@@ -30,6 +30,25 @@ header{
   height: 7vh;
 }
 
+.footer-box{
+  background-color: #7F9EFA;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  border-radius: 17px;
+
+}
+
+footer{
+  padding-top: 5em;
+  height: 30%;
+}
+
+footer h3{
+  text-align: center;
+}
+
 .logo{
   height: 7%;
   width: 15%;
@@ -116,6 +135,7 @@ header{
 }
 
 .description{
+  margin-top: 1rem;
   grid-area: para;
 }
 

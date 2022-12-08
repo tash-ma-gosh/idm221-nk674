@@ -16,11 +16,9 @@
     margin-top: 0;
 }
 
-.nav-item{
-    display: flex;
-}
 
 .nav-item > .nav-link{
+    display: block;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.5em;
@@ -36,7 +34,14 @@
 
 .side-nav{
     margin-top: 50%;
+    
 }
+
+.nav-myName{
+  font-size: 2rem;
+  margin-top: 20%;
+}
+
 
 /*For specific button*/
 .toggle-collapse{
