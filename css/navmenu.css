@@ -2,9 +2,9 @@
 
 .navbar{
     position: absolute;
-    right: -40%;
-    width: 40%;
-    height: 50%;
+    right: -60%;
+    width: 60%;
+    height: 100%;
     background-color: rgb(111, 111, 202);
     text-align: center;
     transition: 0.800s ease;
@@ -13,7 +13,7 @@
 .navbar > .side-nav{
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-top: 0;
 }
 
 .nav-item{
@@ -23,8 +23,9 @@
 .nav-item > .nav-link{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.1em;
+    font-size: 1.5em;
     padding: 1em;
+    padding-top: 5em;
     flex: 1;
 }
 
@@ -33,16 +34,47 @@
     color: black;
 }
 
+.side-nav{
+    margin-top: 50%;
+}
+
+/*For specific button*/
 .toggle-collapse{
     float:left;
-    margin-left: -3.3em;
-    margin-top: 0.5em;
+    margin-left: -4em;
+    margin-top: 1.5em;
     content: "";
     outline: inherit;
     border: 0px;
     background: transparent;
+    height: 50px;
 }
 
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 17px;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+/*
 .toggle-icon,
 .toggle-icon::before,
 .toggle-icon::after{
@@ -51,11 +83,12 @@
     height:3px;
     position: fixed;
     background-color: black;
-    border-radius: 2em;
     border: 1px solid black;
+    border-radius: 2em;
+    
     cursor: pointer;
     transition: 0.800s ease;
-    margin-top: 1.5em;
+    margin-top: 1.5em; 
 }
 
 .toggle-icon::before{
@@ -81,7 +114,7 @@
 
 .show .toggle-icon{
     width: 30px;
-}
+} */
 
 /*Put my Name*/
 

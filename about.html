@@ -16,7 +16,12 @@
     <div class="menu-container">
         <nav class="navbar" id="navID">
             <button type="button" onclick="myFnc(this)" class="toggle-collapse" id="toggle-button">
-                <span class="toggle-icon"></span>
+                <!-- <span class="toggle-icon"></span> -->
+                <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
             </button>
 
             <ul class="side-nav">
@@ -109,10 +114,14 @@
             right = style.getPropertyValue("right");
 
             if(right == "0px"){
-                elem.style.right = "-40%"
+                elem.style.right = "-60%"
             }else{
                 elem.style.right ="0px"
             }
+        }
+
+        function myFunction(x) {
+            x.classList.toggle("change");
         }
     </script>
     
