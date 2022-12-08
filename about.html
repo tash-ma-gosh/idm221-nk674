@@ -15,16 +15,25 @@
     
     <div class="menu-container">
         <nav class="navbar" id="navID">
+            
+            <!--Button with two functions:
+                1. to open navbar
+                2. change in animation
+            -->
             <button type="button" onclick="myFnc(this)" class="toggle-collapse" id="toggle-button">
-                <!-- <span class="toggle-icon"></span> -->
-                <div class="container" onclick="myFunction(this)">
+                <div class="btn-container" onclick="hamburgerToggle(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                   </div>
             </button>
 
+
+
             <ul class="side-nav">
+                <li class="nav-myName">
+                    NATASHA KARNOTO
+                </li>
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
@@ -107,7 +116,6 @@
 
     <script>
         function myFnc(e){
-            // e.classlist.toggle("show");
 
             var elem = document.getElementById("navID"),
             style = window.getComputedStyle(elem),
@@ -120,7 +128,7 @@
             }
         }
 
-        function myFunction(x) {
+        function hamburgerToggle(x) {
             x.classList.toggle("change");
         }
     </script>

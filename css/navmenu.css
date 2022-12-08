@@ -50,7 +50,10 @@
     height: 50px;
 }
 
-.container {
+/*animation and style for hamburger
+    source: https://www.w3schools.com/howto/howto_css_menu_icon.asp
+*/
+.btn-container {
     display: inline-block;
     cursor: pointer;
   }
@@ -64,6 +67,7 @@
     border-radius: 17px;
   }
   
+/*change orientation of bars to cross*/
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
@@ -74,47 +78,5 @@
     transform: translate(0, -11px) rotate(45deg);
   }
 
-/*
-.toggle-icon,
-.toggle-icon::before,
-.toggle-icon::after{
-    content: "";
-    width: 30px;
-    height:3px;
-    position: fixed;
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 2em;
-    
-    cursor: pointer;
-    transition: 0.800s ease;
-    margin-top: 1.5em; 
-}
 
-.toggle-icon::before{
-    position: absolute;
-    left: -1px;
-    margin-top: -0.8em;
-}
-
-.toggle-icon::after{
-    position: absolute;
-    left: -1px;
-    margin-top: 0.6em;
-    width: 20px;
-}
-
-.toggle-icon{
-    width: 15px;
-}
-
-.show .toggle-icon::after{
-    width: 30px;
-}
-
-.show .toggle-icon{
-    width: 30px;
-} */
-
-/*Put my Name*/
 

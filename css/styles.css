@@ -17,7 +17,9 @@ html, body{
 }
 
 body{
-  position: relative;
+  position: relative; /*prevent navbar from extending mobile screen*/
+  background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);
+  background-attachment: fixed; /*constant linear graphic while scrolling*/
 }
 
 
@@ -27,15 +29,6 @@ header{
   font-size: 0.5rem;
   height: 7vh;
 }
-
-/* nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
-} */
 
 .logo{
   height: 7%;
@@ -52,62 +45,101 @@ header{
   display: flex;
 }
 
-body{
-  background:linear-gradient(136.17deg, #7F9EFA 46.53%, rgba(76, 232, 119, 0.475) 100%);
-  background-attachment: fixed;  
-}
-
-
-/* }
-
-.menu-open{
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  width: 6%;
-  height: 6%;
-  cursor: pointer;
-}
-
-.menu-open span{
+/*Home Page Formatting*/
+.middleSection{
+  min-height: 70vh;
   display: flex;
-  width: 100%;
-  height: 12%;
-  background: white;
-  margin-top: .25rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
 }
 
-.menu-close{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 16%;
-  height: 5%;
-  background: #6388f7;
-  cursor: pointer;
+.backRect{
+  width: 45%;;
+  height: 40vh;
+  border-radius: 17px;
+  background-color: #6388f7;
+  margin-bottom: -5%;
 }
 
-.menu-close span{
+.frontRect{
+  width: 45%;;
+  height: 40vh;
+  border-radius: 17px;
+  background-color: rgba(76, 232, 120, 0.521);
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.75em;
+  margin-left: -47%;
+}
+
+/*About Me Grid*/
+
+.bio-container{
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+
+}
+
+.picture-of-me img{
   width: 100%;
-  height: 7% ;
-  background-color: azure;
+  height: 100%;
 }
 
-.menu-close :nth-child(1){
-  position: absolute;
-  left: -2%px;
-  top: 0.75rem;
-  transform: rotate(45deg);
+.bio-opening{ /*grid placement*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    'header pic'
+    'para para';
+  row-gap: 1.5ch;
+  align-items: center;
+  grid-column-gap: 12px;
 }
 
-.menu-close :nth-child(2){
-  position: absolute;
-  left: -2%px;
-  top: 0.75rem;
-  transform: rotate(135deg);
+.picture-of-me{
+  grid-area: pic;
 }
 
+.description{
+  grid-area: para;
+}
+
+.bio-greeting{
+  grid-area: header;
+  font-size: 1.5em;
+}
+
+.fun-facts{
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 12px;
+  grid-row-gap: 12px; 
+}
+
+
+
+
+
+/* 
+
+EVERYTHING BELOW IS RESERVED FOR THE DESKTOP VERSION WHEN MEDIA QUERY IS APPLIED AFTER THIS QUARTER
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  or 
 nav{
   position: fixed;
   top: 0;
@@ -156,79 +188,3 @@ nav ul li{
   color: rgb(206, 51, 147);
   transition: .2s;
 } */
-
-.middleSection{
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2.5%;
-}
-
-.backRect{
-  width: 45%;;
-  height: 40vh;
-  border-radius: 17px;
-  background-color: #6388f7;
-  margin-bottom: -5%;
-}
-
-.frontRect{
-  width: 45%;;
-  height: 40vh;
-  border-radius: 17px;
-  background-color: rgba(76, 232, 120, 0.521);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.75em;
-  margin-left: -47%;
-}
-
-/*About Me Grid*/
-
-.bio-container{
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 80%;
-
-}
-
-.picture-of-me img{
-  width: 100%;
-  height: 100%;
-}
-
-.bio-opening{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    'header pic'
-    'para para';
-  row-gap: 1.5ch;
-  align-items: center;
-}
-
-.picture-of-me{
-  grid-area: pic;
-}
-
-.description{
-  grid-area: para;
-}
-
-.bio-greeting{
-  grid-area: header;
-  font-size: 1.5em;
-}
-
-.fun-facts{
-  margin-top: 15%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 12px;
-  grid-row-gap: 12px; 
-}
