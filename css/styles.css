@@ -110,10 +110,17 @@ header{
   grid-area: para;
 }
 
+.description-element li{
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
 .bio-greeting{
   grid-area: header;
   font-size: 1.5em;
   font-family: 'ChunkFive';
+  font-weight: 100;
+  letter-spacing: 0.25rem;
 }
 
 .fun-facts{
