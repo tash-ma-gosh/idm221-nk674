@@ -2,7 +2,7 @@
 
 .navbar{
     position: absolute;
-    right: 0px;
+    right: -40%;
     width: 40%;
     height: 50%;
     background-color: rgb(111, 111, 202);
