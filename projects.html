@@ -5,34 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navmenu.css">
     <script src="javascript/script.js"></script>
     <title>Natasha's Coding Lair</title>
 </head>
-<header>
-    <nav>
-        <div class="logo">
-            <a href="index.html">Natasha Karnoto</a>
-        </div>
-        
-            <ul class="nav-list">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="experience.html">Experience</a></li>
-            </ul>   
-    </nav>
-</header>
+
 <body>
-    <!-- <nav id="mySidepanel" class="sidepanel">
-        <ul>
-            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="experience.html">Experience</a></li>
-        </ul>   
-    </nav>
-      
-      <button class="openbtn" onclick="openNav()">&#9776; </button> -->
+    <div class="menu-container">
+        <nav class="navbar" id="navID">   
+            <!--Button with two functions:
+                1. to open navbar
+                2. change in animation
+            -->
+            <button type="button" onclick="myFnc(this)" class="toggle-collapse" id="toggle-button">
+                <div class="btn-container" onclick="hamburgerToggle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </button>
+
+            <ul class="side-nav">
+                <li class="nav-myName">
+                    NATASHA KARNOTO
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="logo">
+        <img src="images/logo.png" alt="nk logo">
+    </div>
 
     <h2 id="name">Natasha Karnoto</h2>
     <h1>My Projects</h1>

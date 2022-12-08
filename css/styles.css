@@ -39,9 +39,6 @@ body{
   font-family: 'Biryani-Regular';
 }
 
-.body-index{
-  background: rgb(15, 15, 17);
-}
 
 header{
   width: 100%;
@@ -141,7 +138,7 @@ footer h3{
   width: 100%;
   height: 100%;
   border-radius: 50px;
-  filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.25));
+  /* filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.25)); */
 }
 
 .bio-opening{ /*grid placement*/
@@ -154,11 +151,11 @@ footer h3{
   row-gap: 1.5ch;
   align-items: center;
   grid-column-gap: 12px;
-  background: linear-gradient(90deg, rgba(255,213,254,1) 35%, rgba(248,194,131,1) 100%);
+  background: linear-gradient(90deg, rgba(252,169,249,1) 35%, rgba(252,175,88,1) 100%);
   border-radius: 17px;
   padding: 1.5em;
   border: white;
-  filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.25));
+  /* filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.25)); */
 }
 
 

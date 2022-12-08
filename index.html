@@ -5,30 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navmenu.css">
     <script src="javascript/script.js"></script>
     <title>Natasha Karnoto</title>
 </head>
     
-<header>
-    
 
-    <nav>
-        <div class="logo">
-            <img src="images/logo.png" alt="nkLogo">
-        </div>
+<body>
+    <div class="menu-container">
+        <nav class="navbar" id="navID">   
+            <!--Button with two functions:
+                1. to open navbar
+                2. change in animation
+            -->
+            <button type="button" onclick="myFnc(this)" class="toggle-collapse" id="toggle-button">
+                <div class="btn-container" onclick="hamburgerToggle(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+            </button>
 
-        <div class="clickable">
-            <ul class="nav-list">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul> 
-        </div>
-            
-    </nav>
-    
-    
-</header>
-<body class="body-index">
+            <ul class="side-nav">
+                <li class="nav-myName">
+                    NATASHA KARNOTO
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="logo">
+        <img src="images/logo.png" alt="nk logo">
+    </div>
+
     <div class="middleSection">
         <!-- <div class="backRect"></div>-->
         <div class="circle">

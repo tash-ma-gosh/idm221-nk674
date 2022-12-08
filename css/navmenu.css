@@ -19,29 +19,28 @@
 
 .nav-item{
   font-family: 'NunitoMed';
+  font-weight: bold;
 }
 
 .nav-item > .nav-link{
     display: block;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
-    padding: 1em;
-    padding-top: 5em;
+    padding: .1em;
+    padding-top: 2em;
+    
     flex: 1;
-   
 }
 
 
 
 .nav-item > .nav-link:hover{
-    color: black;
+    color: rgb(68, 118, 209);
 }
 
 .side-nav{
-    margin-top: 50%;
-    
-    
+    margin-top: 50%;  
 }
 
 .nav-myName{
