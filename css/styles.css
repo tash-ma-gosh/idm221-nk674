@@ -322,7 +322,11 @@ footer h3{
   background: #b8d4ac;
 }
 
-
+.brandywine-logo img{
+  height: 12vh;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 
 .project-info{
   /* background: #ebf763; */
@@ -331,7 +335,26 @@ footer h3{
   /* margin-top: 0.5%; */
 }
 
+.project-info h5{
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1.2em;
+}
 
+.brandywine{
+  background: #e4dcd4;
+}
+
+.brandywine-info{
+  background: #6c5b4b;
+  color: white;
+  text-align: center;
+  height: 10vh;
+}
+
+.brandywine-info h5{
+  padding: 0.5em;
+}
 
 
 
