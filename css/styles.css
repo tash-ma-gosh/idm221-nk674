@@ -265,6 +265,7 @@ footer h3{
 .project-main h4{
   text-align: center;
   font-size: 1.5rem;
+  color: white;
 }
 
 .project-container{
@@ -286,8 +287,9 @@ footer h3{
 .project{
   height: 25vh;
   width: 35vh;
-  
-  border-radius: 50%;
+  border-radius: 5%;
+  overflow: hidden; /*clip content*/
+  padding-bottom: 3em;
 }
 
 .project-link{
@@ -298,18 +300,32 @@ footer h3{
 }
 
 .project-background{
-  background-color: aqua;
-  height: 15vh;
-  border-radius: 5%;
+  /* background-color: rgb(110, 73, 165); */
+  height: 17vh;
+}
+
+.drexel-grab{
+  background: #086c5c;
+}
+
+
+.project-logo img{
+  height: 12vh;
+  margin-left: 35%;
+  margin-top: 7%;
+}
+
+.drexel-info{
+  background: #b8d4ac;
 }
 
 
 
 .project-info{
-  position: relative;
-  background: #ebf763;
+  /* background: #ebf763; */
   width: 35vh;
   height: 10vh;
+  /* margin-top: 0.5%; */
 }
 
 
