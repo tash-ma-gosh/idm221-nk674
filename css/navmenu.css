@@ -2,6 +2,7 @@
 
 .navbar{
     position: absolute;
+    z-index: 9;
     right: -60%;
     width: 60%;
     height: 100%;
