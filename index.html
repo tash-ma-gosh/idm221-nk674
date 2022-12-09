@@ -47,18 +47,31 @@
         <img src="images/logo.png" alt="nk logo">
     </div>
 
+<!--Main Content-->
     <div class="middleSection">
-        <!-- <div class="backRect"></div>-->
+        
         <div class="circle">
-            <div class="homeIntro">
-                <h1>Hello!</h1>
-                <p>My name is Natasha Karnoto and I am a UX/UI Designer.
-                I am currently studying Computer Science, Digital Media, 
-                and Social Sciences at Drexel University.</p>
+            <div class="opening">
+                <p>
+                    Welcome to my digital home!
+                    Feel free to look around :) 
+                </p>
             </div>
+            <div class="text">
+                <p>Natasha Karnoto - UX/UI Designer -<p>
+            </div>
+            
         </div>
+        
+        
     </div>
-    
+
+<script>
+    const text = document.querySelector('.text p');
+    text.innerHTML = text.innerText.split("").map(
+        (char, i) =>
+        `<span style="transform:rotate(${i*10}deg)">${char}</span>`).join("");
+</script>
        
 </body>
 

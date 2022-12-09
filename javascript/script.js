@@ -14,3 +14,5 @@ function myFnc(e){
 function hamburgerToggle(x) {
     x.classList.toggle("change");
 }
+
+

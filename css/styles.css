@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Glegoo';
-  src: url('fonts/Glegoo-Regular.ttf') format('truetype');
+  src: url('/fonts/Glegoo-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -89,21 +89,49 @@ footer h3{
 .middleSection{
   min-height: 70vh;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
   margin-top: 2.5%;
+  position: relative;
 }
 
 .circle{
-  display: flex;
   background: radial-gradient(circle, rgba(128,158,249,1) 35%, rgba(198,238,224,1) 100%);
-  width: 60%;
+  width: 30vh;
   height: 30vh;
-  margin-top: 25%;
-  border-radius: 120px;
+  display: flex;
+  /* margin-top: 25%; */
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
+  position: inherit;
 }
+
+
+.text{
+  position: absolute;
+  margin-top: -95%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-70deg);
+ 
+}
+
+.text span{
+  position: absolute;
+  left: 5%;
+  right: auto;
+  font-size: 1.5em;
+  transform-origin: 0 180px;
+
+}
+
+.opening{
+  padding: 1.5em;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
 
 .backRect{
   width: 45%;;
