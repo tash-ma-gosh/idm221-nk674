@@ -49,6 +49,7 @@ header{
 
 p{
   font-family: 'Biryani-Regular';
+  line-height: 1.5rem;
 }
 
 .footer-box{
@@ -272,16 +273,20 @@ footer h3{
   display: flex;
   justify-content: center;
   padding-top: 3em;
+  column-gap: 30px;
+  height: inherit;
 }
 
-/* .project-background{
-  height: 55%;
-  width: 80%;
-  background: pink;
-} */
 
 .all-projects{
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10%;
+}
+
+.all-projects li{
+  line-height: 1.5em;
 }
 
 .project{
@@ -289,7 +294,6 @@ footer h3{
   width: 35vh;
   border-radius: 5%;
   overflow: hidden; /*clip content*/
-  padding-bottom: 3em;
 }
 
 .project-link{
@@ -300,7 +304,6 @@ footer h3{
 }
 
 .project-background{
-  /* background-color: rgb(110, 73, 165); */
   height: 17vh;
 }
 
