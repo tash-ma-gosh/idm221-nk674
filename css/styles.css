@@ -255,9 +255,62 @@ footer h3{
   border-left: 2px solid black;
 }
 
+/*Projects Formatting*/
+
+.project-main{
+  height: 100vh;
+  margin-top: 10%;
+}
+
+.project-main h4{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+/* .project-background{
+  height: 55%;
+  width: 80%;
+  background: pink;
+} */
+
+.all-projects{
+  list-style-type: none;
+}
+
+.project{
+  height: 25vh;
+  width: 35vh;
+  
+  border-radius: 50%;
+}
+
+.project-link{
+  position: absolute;
+  opacity: 0%;
+  width: inherit;
+  height: inherit;
+}
+
+.project-background{
+  background-color: aqua;
+  height: 15vh;
+  border-radius: 5%;
+}
 
 
 
+.project-info{
+  position: relative;
+  background: #ebf763;
+  width: 35vh;
+  height: 10vh;
+}
 
 
 
