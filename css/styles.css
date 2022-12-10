@@ -4,22 +4,18 @@
   box-sizing: border-box;
 }
 
-/* @font-face {
-  font-family: 'ChunkFive';
-  src: url('/fonts/ChunkFive-Regular.otf');
-} */
 
 @font-face {
   font-family: 'Glegoo';
   src: url('/fonts/Glegoo-Regular.ttf') format('truetype');
 }
 
-@font-face {
+@font-face {/*Heading Text*/
   font-family: 'NunitoMed';
   src: url('/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
 }
 
-@font-face {
+@font-face {/*Body text*/
   font-family: 'Biryani-Regular';
   src: url('/fonts/Biryani-Regular.otf');
 }
@@ -33,26 +29,20 @@ html, body{
 
 body{
   position: relative; /*prevent navbar from extending mobile screen*/
-  /* background: linear-gradient(179.54deg, #4f5461 23.64%, #c2d2cd 72.08%); */
   background: radial-gradient(circle, rgba(128,158,249,1) 35%, rgba(198,238,224,1) 100%);
   background-attachment: fixed; /*constant linear graphic while scrolling*/
-  font-family: 'Biryani-Regular';
+  font-family: 'Biryani-Regular', Courier, monospace;
 }
 
 
-header{
-  width: 100%;
-  font-family: 'ChunkFive';
-  font-size: 0.5rem;
-  height: 7vh;
-}
 
 p{
-  font-family: 'Biryani-Regular';
+  font-family: 'Biryani-Regular', Courier, monospace;
   line-height: 1.5rem;
 }
 
 
+/*logo picture in upper left corner*/
 .logo{
   height: 7%;
   width: 15%;
@@ -93,7 +83,7 @@ p{
   margin-right: auto;
 }
 
-
+/*text inside circle*/
 .text{
   position: absolute;
   margin-left: auto;
@@ -121,7 +111,9 @@ p{
 }
 
 
-/*About Me Grid*/
+/*
+            About Me Grid
+*/
 
 .bio-container{
   margin-top: 5%;
@@ -196,10 +188,19 @@ p{
   padding: 1rem;
 }
 
-.square-grid h3{
-  font-family: 'NunitoMed';
-  font-weight: bolder;
+/*grid headings*/
+.square-grid h4{
+  font-family: 'NunitoMed', Courier, monospace;
+  font-weight: 800;
+  font-size: 1rem;
 }
+
+.grid-desc{
+  font-family: 'NunitoMed', Courier, monospace;
+  font-weight: 800;
+  font-size: .9rem;
+}
+
 
 .square-grid ul{
   list-style-type: none;
@@ -210,16 +211,18 @@ p{
   padding-bottom: .40rem;
 }
 
+    /*adds gridlins*/
 .grid-top{
   border-bottom: 2px solid black;
 }
 
 .grid-middle{
-  /* border-right: 2px solid black; */
   border-left: 2px solid black;
 }
 
-/*Projects Formatting*/
+/*
+          Projects Formatting
+*/
 
 .project-main{
   height: 100vh;

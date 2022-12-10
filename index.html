@@ -59,6 +59,7 @@
                     Feel free to look around :) 
                 </p>
             </div>
+            <!--Around the circle-->
             <div class="text">
                 <p>Natasha Karnoto - UX/UI Designer -<p>
             </div>
@@ -68,7 +69,10 @@
         
     </div>
 
+
 <script>
+    //injects a bunch of spans into the server for each letter to create circle
+    //reference: https://www.youtube.com/watch?v=zwl3kZPZ8H8
     const text = document.querySelector('.text p');
     text.innerHTML = text.innerText.split("").map(
         (char, i) =>
