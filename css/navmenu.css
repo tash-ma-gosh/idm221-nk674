@@ -20,7 +20,7 @@
 
 .nav-item{
   font-family: 'NunitoMed';
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .nav-item > .nav-link{
@@ -47,8 +47,8 @@
 .nav-myName{
   font-size: 2rem;
   margin-top: 20%;
-  font-family: 'Glegoo';
-  font-weight: bold;
+  font-family: 'NunitoMed';
+  font-weight: bolder;
 }
 
 

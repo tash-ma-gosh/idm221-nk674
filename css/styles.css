@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'ChunkFive';
   src: url('/fonts/ChunkFive-Regular.otf');
-}
+} */
 
 @font-face {
   font-family: 'Glegoo';
@@ -52,24 +52,6 @@ p{
   line-height: 1.5rem;
 }
 
-.footer-box{
-  background-color: #7F9EFA;
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 40%;
-  border-radius: 17px;
-
-}
-
-footer{
-  padding-top: 5em;
-  height: 30%;
-}
-
-footer h3{
-  text-align: center;
-}
 
 .logo{
   height: 7%;
@@ -139,26 +121,6 @@ footer h3{
 }
 
 
-.backRect{
-  width: 45%;;
-  height: 40vh;
-  border-radius: 17px;
-  background-color: #6388f7;
-  margin-bottom: -5%;
-}
-
-.frontRect{
-  width: 45%;;
-  height: 40vh;
-  border-radius: 17px;
-  background-color: rgba(76, 232, 120, 0.521);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.75em;
-  margin-left: -47%;
-}
-
 /*About Me Grid*/
 
 .bio-container{
@@ -213,7 +175,7 @@ footer h3{
 .bio-greeting{
   grid-area: header;
   font-size: 1.75em;
-  font-family: 'NunitoMed';
+  font-family: 'NunitoMed', Courier, monospace;
   font-weight: bold;
   letter-spacing: 0.25rem;
 }
@@ -265,9 +227,10 @@ footer h3{
 }
 
 .project-main h4{
+  font-family: 'Nunito', Courier, monospace;
   text-align: center;
   font-size: 1.5rem;
-  color: white;
+  color: rgb(71, 70, 70);
 }
 
 .project-container{
@@ -355,6 +318,8 @@ footer h3{
 
 .brandywine-info h5{
   padding: 0.5em;
+  font-family: "Nunito";
+  font-weight: 400;
 }
 
 
